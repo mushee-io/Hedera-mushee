@@ -1,26 +1,16 @@
-# Mushee Suite — Hedera Dashboard (Demo)
+Mushee Suite = Hedera Dashboard
 
-Sleek black + white, glassless dashboard for a Hedera-native demo.
+Mushee Suite is a simple demo dashboard built for the Hedera network. It shows how users can interact with blockchain services through a clean interface while exploring the Hedera ecosystem.
 
-## Quickstart
-```bash
+The dashboard includes a wallet connection (demo), a TestNet HBAR faucet, ecosystem explorer, and a live transaction feed using Hedera’s Mirror Node API.
+
+The design is intentionally minimal = mushee.
+
+Run locally
 npm install
 npm run dev
-```
+Links
 
-## Deploy
-- Vercel: import the repo / upload the folder, build command: `npm run build`
+Mushee: https://mushee.xyz
 
-## Notes
-- Wallet + faucet are demo flows (UI + simulated states).
-- Replace the mock wallet + faucet handlers in `app/page.tsx` with real Hedera integrations.
-
-## Links
-- Mushee website: https://mushee.xyz/
-- Mushee X: https://x.com/mushee_io
-
-
-## Added YC-style demo widgets
-- Live Hedera tx feed (Mirror Node REST API)
-- Tabbed faucet UI (claim/how/links)
-- Ecosystem tabs (scan/mini reading/network)
+X: https://x.com/mushee_io
